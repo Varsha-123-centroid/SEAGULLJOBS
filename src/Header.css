@@ -1,0 +1,31 @@
+#mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    overflow-y: auto;
+  }
+  
+  .mobile-nav-box {
+    background: white;
+    padding: 20px; /* Adjust padding to control the size */
+    width: 80%; /* Adjust width as needed */
+    max-width: 300px; /* Add maximum width to prevent it from taking full width */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .menu-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px; /* Adjust padding to control the size */
+    font-size: 14px;
+  }
+  
